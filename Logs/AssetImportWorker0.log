@@ -1,0 +1,256 @@
+Unity Editor version:    2020.3.21f1 (a38c86f6690f)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/2020.3.21f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mac/Documents/GitHub/Meta
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56036
+Successfully changed project path to: /Users/mac/Documents/GitHub/Meta
+/Users/mac/Documents/GitHub/Meta
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 181.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path /Applications/2020.3.21f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mac/Documents/GitHub/Meta/Assets
+GfxDevice: creating device client; threaded=0
+2022-02-18 02:37:27.452 Unity[3942:3485177] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 650 (low power)
+2022-02-18 02:37:27.452 Unity[3942:3485177] Metal devices available: 1
+2022-02-18 02:37:27.452 Unity[3942:3485177] 0: Intel(R) Iris(TM) Plus Graphics 650 (low power)
+2022-02-18 02:37:27.452 Unity[3942:3485177] Using device Intel(R) Iris(TM) Plus Graphics 650 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 650
+Initialize mono
+Mono path[0] = '/Applications/2020.3.21f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.21f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.21f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56942
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2020.3.21f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/2020.3.21f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003260 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 50.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.240 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8240ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (717ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007263 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.968 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2969ms)
+		BeginReloadAssembly (548ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (2162ms)
+			LoadAssemblies (409ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1054ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (492ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.020717 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.055750 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/2020.3.21f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1883 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.2 MB.
+System memory in use after: 195.4 MB.
+
+Unloading 95 unused Assets to reduce memory usage. Loaded Objects now: 2342.
+Total: 3.811672 ms (FindLiveObjects: 0.216065 ms CreateObjectMapping: 0.073510 ms MarkObjects: 2.970621 ms  DeleteObjects: 0.550113 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Malbers Animations
+  artifactKey: Guid(b36957699a1df4f73b69d97b13bd6ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations using Guid(b36957699a1df4f73b69d97b13bd6ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aaf60f284b5b1c0c1d870c31f686a51') in 0.006242 seconds 
+  Import took 0.009833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Malbers Animations/_Upgrading_.asset
+  artifactKey: Guid(5a449182fa6393743afadb549de6b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/_Upgrading_.asset using Guid(5a449182fa6393743afadb549de6b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6666a2bec417c5ad9d882af5ed50c5fd') in 1.110061 seconds 
+  Import took 1.113774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002607 seconds.
+  path: Assets/Malbers Animations/Animal Controller
+  artifactKey: Guid(ecc0d954c412ef44d820af7ccae1e638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller using Guid(ecc0d954c412ef44d820af7ccae1e638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01468565029e5e661238a4c7b1b41c5') in 0.001129 seconds 
+  Import took 0.004653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Malbers Animations/Animal Controller/1 - Demos/1 - PlayGround Human.unity
+  artifactKey: Guid(db39be7b9d1ff4d46aa4a40374caff75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/1 - Demos/1 - PlayGround Human.unity using Guid(db39be7b9d1ff4d46aa4a40374caff75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543b5e35d95cd15544eb0f526216a787') in 0.007665 seconds 
+  Import took 0.010600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Malbers Animations/Animal Controller/1 - Demos
+  artifactKey: Guid(ac29238b3dcb1084ca4e1562c82d72d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/1 - Demos using Guid(ac29238b3dcb1084ca4e1562c82d72d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6562a760f738178ed57d2da535298267') in 0.000956 seconds 
+  Import took 0.003503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Malbers Animations/ChangeLog.asset
+  artifactKey: Guid(4334b4f5c2fea58458f3dd4064477319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/ChangeLog.asset using Guid(4334b4f5c2fea58458f3dd4064477319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db472af2fabb08ff991de56765c8b9d2') in 0.004997 seconds 
+  Import took 0.008278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Malbers Animations/AC README!.asset
+  artifactKey: Guid(0421ea1fd4d8cab438d0a2b1ee95368d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/AC README!.asset using Guid(0421ea1fd4d8cab438d0a2b1ee95368d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b650c3910a93ead1522911d5a4c84b') in 0.004721 seconds 
+  Import took 0.008038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Malbers Animations/Animal Controller/AC ChangeLog.asset
+  artifactKey: Guid(d9e2dfb9da4266445972406501911280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/AC ChangeLog.asset using Guid(d9e2dfb9da4266445972406501911280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4b009fd1f2a461b7b1b2526db8036e') in 0.004523 seconds 
+  Import took 0.008129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Malbers Animations/Animal Controller/1 - Demos/Wolf LiteTimeline Cinemachine.playable
+  artifactKey: Guid(a22d1bdfdef3e5a488b7af8b572909be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/1 - Demos/Wolf LiteTimeline Cinemachine.playable using Guid(a22d1bdfdef3e5a488b7af8b572909be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9c5e8000be990f3f69a250829fe951') in 0.547136 seconds 
+  Import took 0.550919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002618 seconds.
+  path: Assets/Malbers Animations/README!.asset
+  artifactKey: Guid(8357ab50d0248b347a61fe6d6b730ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/README!.asset using Guid(8357ab50d0248b347a61fe6d6b730ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8f7c6c86abd642c402387496505d54') in 0.002799 seconds 
+  Import took 0.006136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Malbers Animations/Animal Controller/1 - Demos/1 - PlayGround Empty Controller.unity
+  artifactKey: Guid(b1836e24e9ef7d74587524d1d7d21d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/1 - Demos/1 - PlayGround Empty Controller.unity using Guid(b1836e24e9ef7d74587524d1d7d21d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd34bc6dc82a2251990d9d9ab9c6799a') in 0.001221 seconds 
+  Import took 0.004282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Malbers Animations/Animal Controller/1 - Demos/Wolf LiteTimeline FreeLookCam.playable
+  artifactKey: Guid(6828464e3ce2dd54a98ba841b37f55c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/1 - Demos/Wolf LiteTimeline FreeLookCam.playable using Guid(6828464e3ce2dd54a98ba841b37f55c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199305d4c43e3e4c7c378e317edb75e1') in 0.051772 seconds 
+  Import took 0.055198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.386213 seconds.
+  path: Assets/Malbers Animations/Animal Controller/1 - Demos/1 - PlayGround Wolf Lite.unity
+  artifactKey: Guid(05844cad7e93ce04ab8b3fcf5e6e019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animal Controller/1 - Demos/1 - PlayGround Wolf Lite.unity using Guid(05844cad7e93ce04ab8b3fcf5e6e019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66965bdf772f5bc72e38da83099563b0') in 0.001924 seconds 
+  Import took 0.009622 seconds .
+
