@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Malbers Animations/Animal Controller/1 - Demos/1 - PlayGround Human.unity
+    guid: db39be7b9d1ff4d46aa4a40374caff75
   m_configObjects: {}

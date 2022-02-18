@@ -1,0 +1,2270 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - MalbersAnimations.BoolVarListener
+    - MalbersAnimations.ComponentSelector
+    - MalbersAnimations.Controller.AttackTriggerBehaviour
+    - MalbersAnimations.Controller.ComboManager
+    - MalbersAnimations.Controller.Death
+    - MalbersAnimations.Controller.Fall
+    - MalbersAnimations.Controller.Idle
+    - MalbersAnimations.Controller.JumpBasic
+    - MalbersAnimations.Controller.Locomotion
+    - MalbersAnimations.Controller.MAnimal
+    - MalbersAnimations.Controller.MAttackTrigger
+    - MalbersAnimations.Controller.MCheckPoint
+    - MalbersAnimations.Controller.MRespawner
+    - MalbersAnimations.Controller.MWayPoint
+    - MalbersAnimations.Controller.ModeBehaviour
+    - MalbersAnimations.Controller.ModifierBehaviour
+    - MalbersAnimations.Controller.Reactions.GravityReaction
+    - MalbersAnimations.Controller.Reactions.ModeReaction
+    - MalbersAnimations.Controller.Reactions.ModifyStatSO
+    - MalbersAnimations.Controller.Reactions.StateReaction
+    - MalbersAnimations.Controller.Zone
+    - MalbersAnimations.Events.EnableDisableEvent
+    - MalbersAnimations.Events.MEvent
+    - MalbersAnimations.Events.MEventListener
+    - MalbersAnimations.Events.UnityEventExit
+    - MalbersAnimations.Events.UnityEventRaiser
+    - MalbersAnimations.FadeInOutGraphic
+    - MalbersAnimations.FloatComparer
+    - MalbersAnimations.GizmoVisualizer
+    - MalbersAnimations.GravityChanger
+    - MalbersAnimations.IntComparer
+    - MalbersAnimations.IntVarListener
+    - MalbersAnimations.MAction
+    - MalbersAnimations.MDamageable
+    - MalbersAnimations.MGameSettings
+    - MalbersAnimations.MInput
+    - MalbersAnimations.MalbersInput
+    - MalbersAnimations.MessagesBehavior
+    - MalbersAnimations.ModeID
+    - MalbersAnimations.PlayTransformAnimation
+    - MalbersAnimations.Scriptables.BoolVar
+    - MalbersAnimations.Scriptables.CapsuleColliderPreset
+    - MalbersAnimations.Scriptables.FloatVar
+    - MalbersAnimations.Scriptables.IntVar
+    - MalbersAnimations.Scriptables.LayerVar
+    - MalbersAnimations.Scriptables.ResetScriptableVars
+    - MalbersAnimations.Scriptables.TransformHook
+    - MalbersAnimations.Scriptables.TransformListener
+    - MalbersAnimations.Scriptables.TransformVar
+    - MalbersAnimations.SlowMotion
+    - MalbersAnimations.StanceID
+    - MalbersAnimations.StatID
+    - MalbersAnimations.StateID
+    - MalbersAnimations.Stats
+    - MalbersAnimations.StepTrigger
+    - MalbersAnimations.StepsManager
+    - MalbersAnimations.Tag
+    - MalbersAnimations.Tags
+    - MalbersAnimations.TransformAnimation
+    - MalbersAnimations.UIFollowTransform
+    - MalbersAnimations.UnityUtils
+    - MalbersAnimations.Utilities.Aim
+    - MalbersAnimations.Utilities.AimTarget
+    - MalbersAnimations.Utilities.Aligner
+    - MalbersAnimations.Utilities.Comment
+    - MalbersAnimations.Utilities.LookAt
+    - MalbersAnimations.Utilities.LookAtBehaviour
+    - MalbersAnimations.Utilities.MInteract
+    - MalbersAnimations.Utilities.Messages
+    - MalbersAnimations.Utilities.TriggerEnter
+    - MalbersAnimations.Utilities.TriggerProxy
+    - MalbersAnimations.Utilities.ValueToString
+    Cinemachine.dll:
+    - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachineCollider
+    - Cinemachine.CinemachineComposer
+    - Cinemachine.CinemachineFreeLook
+    - Cinemachine.CinemachineOrbitalTransposer
+    - Cinemachine.CinemachinePipeline
+    - Cinemachine.CinemachineVirtualCamera
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+  sceneClasses:
+    Assets/Malbers Animations/Animal Controller/1 - Demos/1 - PlayGround Human.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 5624}
+    - Class: 114
+      Script: {instanceID: 5772}
+    - Class: 114
+      Script: {instanceID: 5802}
+    - Class: 114
+      Script: {instanceID: 6152}
+    - Class: 114
+      Script: {instanceID: 6450}
+    - Class: 114
+      Script: {instanceID: 6566}
+    - Class: 114
+      Script: {instanceID: 6742}
+    - Class: 114
+      Script: {instanceID: 6938}
+    - Class: 114
+      Script: {instanceID: 7024}
+    - Class: 114
+      Script: {instanceID: 7236}
+    - Class: 114
+      Script: {instanceID: 7564}
+    - Class: 114
+      Script: {instanceID: 23496}
+    - Class: 114
+      Script: {instanceID: 23500}
+    - Class: 114
+      Script: {instanceID: 23502}
+    - Class: 114
+      Script: {instanceID: 23518}
+    - Class: 114
+      Script: {instanceID: 23530}
+    - Class: 114
+      Script: {instanceID: 23532}
+    - Class: 114
+      Script: {instanceID: 23536}
+    - Class: 114
+      Script: {instanceID: 23540}
+    - Class: 114
+      Script: {instanceID: 23542}
+    - Class: 114
+      Script: {instanceID: 23546}
+    - Class: 114
+      Script: {instanceID: 23566}
+    - Class: 114
+      Script: {instanceID: 23572}
+    - Class: 114
+      Script: {instanceID: 23580}
+    - Class: 114
+      Script: {instanceID: 23586}
+    - Class: 114
+      Script: {instanceID: 23596}
+    - Class: 114
+      Script: {instanceID: 23598}
+    - Class: 114
+      Script: {instanceID: 23610}
+    - Class: 114
+      Script: {instanceID: 23630}
+    - Class: 114
+      Script: {instanceID: 23644}
+    - Class: 114
+      Script: {instanceID: 23648}
+    - Class: 114
+      Script: {instanceID: 23650}
+    - Class: 114
+      Script: {instanceID: 23652}
+    - Class: 114
+      Script: {instanceID: 23654}
+    - Class: 114
+      Script: {instanceID: 23664}
+    - Class: 114
+      Script: {instanceID: 23682}
+    - Class: 114
+      Script: {instanceID: 23690}
+    - Class: 114
+      Script: {instanceID: 23692}
+    - Class: 114
+      Script: {instanceID: 23696}
+    - Class: 114
+      Script: {instanceID: 23702}
+    - Class: 114
+      Script: {instanceID: 23710}
+    - Class: 114
+      Script: {instanceID: 23712}
+    - Class: 114
+      Script: {instanceID: 23714}
+    - Class: 114
+      Script: {instanceID: 23716}
+    - Class: 114
+      Script: {instanceID: 23718}
+    - Class: 114
+      Script: {instanceID: 23728}
+    - Class: 114
+      Script: {instanceID: 23730}
+    - Class: 114
+      Script: {instanceID: 23738}
+    - Class: 114
+      Script: {instanceID: 23760}
+    - Class: 114
+      Script: {instanceID: 23764}
+    - Class: 114
+      Script: {instanceID: 23766}
+    - Class: 114
+      Script: {instanceID: 23782}
+    - Class: 114
+      Script: {instanceID: 23784}
+    - Class: 114
+      Script: {instanceID: 23794}
+    - Class: 114
+      Script: {instanceID: 23798}
+    - Class: 114
+      Script: {instanceID: 23804}
+    - Class: 114
+      Script: {instanceID: 23808}
+    - Class: 114
+      Script: {instanceID: 23810}
+    - Class: 114
+      Script: {instanceID: 23814}
+    - Class: 114
+      Script: {instanceID: 23830}
+    - Class: 114
+      Script: {instanceID: 23852}
+    - Class: 114
+      Script: {instanceID: 23856}
+    - Class: 114
+      Script: {instanceID: 23864}
+    - Class: 114
+      Script: {instanceID: 23884}
+    - Class: 114
+      Script: {instanceID: 23892}
+    - Class: 114
+      Script: {instanceID: 23904}
+    - Class: 114
+      Script: {instanceID: 23912}
+    - Class: 114
+      Script: {instanceID: 23914}
+    - Class: 114
+      Script: {instanceID: 23918}
+    - Class: 114
+      Script: {instanceID: 23920}
+    - Class: 114
+      Script: {instanceID: 23924}
+    - Class: 114
+      Script: {instanceID: 23928}
+    - Class: 114
+      Script: {instanceID: 23948}
+    - Class: 114
+      Script: {instanceID: 23952}
+    - Class: 114
+      Script: {instanceID: 23962}
+    - Class: 114
+      Script: {instanceID: 23964}
+    - Class: 114
+      Script: {instanceID: 23972}
+    - Class: 114
+      Script: {instanceID: 23978}
+    - Class: 114
+      Script: {instanceID: 23982}
+    - Class: 114
+      Script: {instanceID: 23986}
+    - Class: 114
+      Script: {instanceID: 24012}
+    - Class: 114
+      Script: {instanceID: 24016}
+    - Class: 114
+      Script: {instanceID: 24026}
+    - Class: 114
+      Script: {instanceID: 32522}
+    - Class: 114
+      Script: {instanceID: 32524}
+    - Class: 114
+      Script: {instanceID: 32526}
+    - Class: 114
+      Script: {instanceID: 32528}
+    - Class: 114
+      Script: {instanceID: 32530}
+    - Class: 114
+      Script: {instanceID: 32532}
+    - Class: 114
+      Script: {instanceID: 36888}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 218
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    - Class: 1773428102
+      Script: {instanceID: 0}
+    - Class: 1953259897
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 42ce0f22c03e699f58818a31824b007c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: MobileJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: e163e468eb8e61a8c43f3e801f0a08d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: SetStatTask
+  - hash:
+      serializedVersion: 2
+      Hash: 3d375cf13444a358661f7bb7e9360bb2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: MClimbable
+  - hash:
+      serializedVersion: 2
+      Hash: 50d540a171cbebc9ac40985616aedfa4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: FreeLookCameraState
+  - hash:
+      serializedVersion: 2
+      Hash: 7667e05d80e17909066667318c52c12a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: MDirectionalDamage
+  - hash:
+      serializedVersion: 2
+      Hash: 75f1c6060dcdb6b9c979d6410c507afe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: TriggerProxy
+  - hash:
+      serializedVersion: 2
+      Hash: 768e0b2401d6f4fdefbb3f86c12c662e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: Comment
+  - hash:
+      serializedVersion: 2
+      Hash: 27d9ffdc257111d16ba1fdd6cee3dfe4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: FloatComparer
+  - hash:
+      serializedVersion: 2
+      Hash: db6b5673442180a29b27d79feaefe882
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: CameraWallStop
+  - hash:
+      serializedVersion: 2
+      Hash: e794b9ee59ce5a9d95789982c740ba85
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LockAxis
+  - hash:
+      serializedVersion: 2
+      Hash: 320db88a08e7c1e965018ed0b1ef80ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: CheckStanceDecision
+  - hash:
+      serializedVersion: 2
+      Hash: 042b1ead9b0dedf031022175128112b8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: CheckScriptableVar
+  - hash:
+      serializedVersion: 2
+      Hash: 4dcf3b4ef1f3a10105090036400fce69
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: ChangeTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 7da6d12a26bf8f93f5e22358fd14a75e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: TransformListener
+  - hash:
+      serializedVersion: 2
+      Hash: ef4b0a6027044e67b47e5114baaa4845
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: BonePreset
+  - hash:
+      serializedVersion: 2
+      Hash: d03e7928363bd8ceb94e64d8ae3421be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: MessagesSO
+  - hash:
+      serializedVersion: 2
+      Hash: a6652d70d921ba63177e49ad2e1e756e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: CapsuleColliderPreset
+  - hash:
+      serializedVersion: 2
+      Hash: a63d8a17662d0246a004b55710634fa6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: StepTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: eed7429d3204a0b1b383f9d421825431
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: StateID
+  - hash:
+      serializedVersion: 2
+      Hash: eed7429d3204a0b1b383f9d421825431
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: Tag
+  - hash:
+      serializedVersion: 2
+      Hash: fce20226517a78b205e772cdb0415781
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: MRespawner
+  - hash:
+      serializedVersion: 2
+      Hash: 36e4800cacc188f73678b9d138a8c7c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Weapons
+    className: MProjectileThrower
+  - hash:
+      serializedVersion: 2
+      Hash: 41b68f5bab6921ced8cee558a1c2d087
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: ModeBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 07ec84722df79a44e41ee6a97e9b3127
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: MessageTask
+  - hash:
+      serializedVersion: 2
+      Hash: ff27e1646934b7f1e6c88c7fd9b6b01a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: FloatVarListener
+  - hash:
+      serializedVersion: 2
+      Hash: 47d78a282cd51c8e03a05f17e5a5e309
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: Swim
+  - hash:
+      serializedVersion: 2
+      Hash: a40a873a418f2ee52f25625fe36c7472
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: LookAt
+  - hash:
+      serializedVersion: 2
+      Hash: f806d83dcc32c64163ca96b30da42e27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: LayersBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: 471be2cf45e2b59673933097b4d25db5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: Locomotion
+  - hash:
+      serializedVersion: 2
+      Hash: 100d3dd878c69d3d421b4cf7ced26c95
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: AnimatorEventSounds
+  - hash:
+      serializedVersion: 2
+      Hash: 1e2af3018639cdad0ca3788d7503999f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: ResetScriptableVarsAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1659236e114daa7bb58a266190e74096
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: AttackTriggerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: ddebe8109e060d4560391993bee8e871
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: MaterialListVar
+  - hash:
+      serializedVersion: 2
+      Hash: 1a500636edf2c6b77cfc7944da8f9ee9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: ChangeSpeedTask
+  - hash:
+      serializedVersion: 2
+      Hash: 1ee7aff879ffcae46668ca019b4bb1ff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Events
+    className: MEventListener
+  - hash:
+      serializedVersion: 2
+      Hash: 011c89d591f0d47184a3b57b1486f898
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: ForwardDirToV3
+  - hash:
+      serializedVersion: 2
+      Hash: 1fd0c4beb4b3f0e1c9429a01db651e8e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: PlayStateTask
+  - hash:
+      serializedVersion: 2
+      Hash: 00371a0e1e143b87ce87fc38c600b677
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: ScaleBonesFix
+  - hash:
+      serializedVersion: 2
+      Hash: aa0e7451caccd1526eb81924b33dabc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: SoundBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: eed7429d3204a0b1b383f9d421825431
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: ModeID
+  - hash:
+      serializedVersion: 2
+      Hash: a29405bd72dbc2ef22093a00057ecec3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Events
+    className: EnableDisableEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 647ec62bc15d66bc517ce654aae3851e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.SA
+    className: MRigidbodyFPSController
+  - hash:
+      serializedVersion: 2
+      Hash: 93419f3b79760b80e1fca891e1c9c201
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: GameObjectVar
+  - hash:
+      serializedVersion: 2
+      Hash: 261f06dcc7e85272aeeb260c27c38b1e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: ActiveMeshes
+  - hash:
+      serializedVersion: 2
+      Hash: a94c83bf641e63c5d35e51adbb7b1135
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: InvokeEventTask
+  - hash:
+      serializedVersion: 2
+      Hash: 75c6d19fe41a175b758851a2e3a9f391
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: UIFollowTransform
+  - hash:
+      serializedVersion: 2
+      Hash: affeb2827126faa765f5983b057d303c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: FireBallEffectM
+  - hash:
+      serializedVersion: 2
+      Hash: 385e4ce0e9967d087258bb666b79e84a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: MaterialLerp
+  - hash:
+      serializedVersion: 2
+      Hash: db3ceafccee16eff5f4051ce0398102a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: ColorVar
+  - hash:
+      serializedVersion: 2
+      Hash: 5a45e1eae2049a31fde6cbdc99831717
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: BoneScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 0951ba8cf0379a28b0e6a9eeb9c46575
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: ModifierDodge
+  - hash:
+      serializedVersion: 2
+      Hash: 779fab5f3639c3db8e771167fdb91518
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: PointClick
+  - hash:
+      serializedVersion: 2
+      Hash: 941380bfdb04eaddf566974b3e79ee91
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: Vector3Var
+  - hash:
+      serializedVersion: 2
+      Hash: 4b49ef70a8151475a85feeed53887f21
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: FadeInOutGraphic
+  - hash:
+      serializedVersion: 2
+      Hash: b1f0753046b1e176c1806957bdb8e61e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: Vector2Var
+  - hash:
+      serializedVersion: 2
+      Hash: 5d059dea2b8aeee91ff995367ba1b497
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: CheckStateDecision
+  - hash:
+      serializedVersion: 2
+      Hash: e16fa1dcd20a7de002577cf59f31787b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: TaskDecision
+  - hash:
+      serializedVersion: 2
+      Hash: 8ae5bde4b49109dab00442f1334e895c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: TransformAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 1e16c71bfe3b67941d729ba01b58b2bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: Tags
+  - hash:
+      serializedVersion: 2
+      Hash: c3ac4f3d4354b4c933c571010e64b064
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: MCheckPoint
+  - hash:
+      serializedVersion: 2
+      Hash: c0fb6bbf9a413750955538e7741eac24
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.Reactions
+    className: ModeReaction
+  - hash:
+      serializedVersion: 2
+      Hash: ed1fa91afbf2dae5f3d2aa36e5ad171e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: LookAtBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 311e6c33ab075e25394a9dacbacc17b2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: Stats
+  - hash:
+      serializedVersion: 2
+      Hash: 7f5d3d325ebb79afc37c9bcf590a1e60
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: CameraInputMapper
+  - hash:
+      serializedVersion: 2
+      Hash: 1f61d7b67c34f3e8b0f7fa68d52b5b5e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: Vector3VarListener
+  - hash:
+      serializedVersion: 2
+      Hash: fd7b416f589750fbd8b1b052f679429c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: MGameSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 11aaa4f7cda06bf94a9f3a0fb9a780e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: Readme
+  - hash:
+      serializedVersion: 2
+      Hash: 98ba57cd7cf18fe9ff1719c5b1abbd2c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: PatrolTask
+  - hash:
+      serializedVersion: 2
+      Hash: 581d75c2c1d751b71b25b4866c0a3c64
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: Zone
+  - hash:
+      serializedVersion: 2
+      Hash: f196a8f5b089718eadda51205c543863
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: AimTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 029113227f9da2be286ba0a15268fe40
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: QuickAlignTask
+  - hash:
+      serializedVersion: 2
+      Hash: 6405d123d1a81f09450f614bd85077d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: JumpBasic
+  - hash:
+      serializedVersion: 2
+      Hash: daad468aa6516bcd0b7d7fa78f042283
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: AIWanderArea
+  - hash:
+      serializedVersion: 2
+      Hash: 31182071c053c617a85333a04ab9e231
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: TransformHook
+  - hash:
+      serializedVersion: 2
+      Hash: c726a1452cbbc701a7b182f5316ec291
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: BlinkEyes
+  - hash:
+      serializedVersion: 2
+      Hash: 7b51709de19a11049fc23ac4027ab5be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: ArriveDecision
+  - hash:
+      serializedVersion: 2
+      Hash: 593aef3b5e0407721ee40735022f2b9a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: AITarget
+  - hash:
+      serializedVersion: 2
+      Hash: d491ca3528a6865ea7efffaa0d2d80bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: Idle
+  - hash:
+      serializedVersion: 2
+      Hash: f05cf291af1046e17c625cc93a71e568
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.Reactions
+    className: GravityReaction
+  - hash:
+      serializedVersion: 2
+      Hash: 31bdb78eb698887918b41f3de311accf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: TransformVar
+  - hash:
+      serializedVersion: 2
+      Hash: 4a26f7020c0cec01ad294713905193c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: TriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 44b5907e0b3a3cc13a5a1423c2fcebc7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: MAnimal
+  - hash:
+      serializedVersion: 2
+      Hash: ae49e5eb6d9d4722d15387ac5d0e160c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: PlayModeTask
+  - hash:
+      serializedVersion: 2
+      Hash: e21a8d1dcb885183cd331be42108914d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: StringComparer
+  - hash:
+      serializedVersion: 2
+      Hash: d98d00ff9220bf44490879874e3a5ca6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: SoundByMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: 00aeef79b184e721a92c691941e4dd11
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: ResetScriptableVars
+  - hash:
+      serializedVersion: 2
+      Hash: d1a4e75dc2035991b6fc8a5af6561f26
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: Death
+  - hash:
+      serializedVersion: 2
+      Hash: 59656d1a82e5052bab07594448240e87
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: FreeLockCameraManager
+  - hash:
+      serializedVersion: 2
+      Hash: 81b8ffdd77c7f85e97d26428ce69c487
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: ComboManager
+  - hash:
+      serializedVersion: 2
+      Hash: dd6d9677a3759daf63b884740069275c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.Reactions
+    className: MReactionsList
+  - hash:
+      serializedVersion: 2
+      Hash: 595904609c64f4f535a279fa85ec0362
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: MAnimalBrain
+  - hash:
+      serializedVersion: 2
+      Hash: a63e692adeec2d10088a5b7b20cb68a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: StringVarListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9cd31b2bc58e31d8660f3f82eea9cc6e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: Limb
+  - hash:
+      serializedVersion: 2
+      Hash: ed730944d550a70aba0de2b385326b82
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: CheckStatDecision
+  - hash:
+      serializedVersion: 2
+      Hash: d426e747c13416a1b1702ca2b188e4fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: ModifyStat
+  - hash:
+      serializedVersion: 2
+      Hash: 55e166ac7e3ddabf096c320f4c4bba3f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Weapons
+    className: MDisplayTrajectory
+  - hash:
+      serializedVersion: 2
+      Hash: 2ea27edc8f0bab44db567faeb7a70134
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: MWayPoint
+  - hash:
+      serializedVersion: 2
+      Hash: f6553c34bc713d7163f8b8a2433eeb5a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: LookDecision
+  - hash:
+      serializedVersion: 2
+      Hash: ccd184fa5da666b375db0aa3bbe4a0fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Events
+    className: UnityEventRaiser
+  - hash:
+      serializedVersion: 2
+      Hash: a67142ac9a8b172930dada7f690fe4a7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: LayerVar
+  - hash:
+      serializedVersion: 2
+      Hash: 3b549d45b2d41052429f4494f85c639b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.Reactions
+    className: ForceReaction
+  - hash:
+      serializedVersion: 2
+      Hash: 775838cd066d1fd2d370c1c22971b9bd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: Climb
+  - hash:
+      serializedVersion: 2
+      Hash: 8ac437478832e93f160942c33de069ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: CheckVarListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3153ab3e68f97e6bf6566f092147d59f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: DragonEgg
+  - hash:
+      serializedVersion: 2
+      Hash: dda1ead5bd82ff27b803e56a85e00c46
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: ORDecision
+  - hash:
+      serializedVersion: 2
+      Hash: edcacf99d75cbb57ef2fa6f6dc3fcd4a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.Reactions
+    className: MovementReaction
+  - hash:
+      serializedVersion: 2
+      Hash: 2f534dd65d2e3a891a052a49ecfb16f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: MalbersInput
+  - hash:
+      serializedVersion: 2
+      Hash: bde18a951ee3a4171aba4709c8bc97b8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: IntComparer
+  - hash:
+      serializedVersion: 2
+      Hash: a755b55ad98c17952f882114c627af08
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: MaterialVar
+  - hash:
+      serializedVersion: 2
+      Hash: f21e05d474b7e53c0dc6380078c8dd77
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: RandomBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: c39b5aff17d9fd7f8f3bf4d56cafcd7d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: MAnimalAnimatorSync
+  - hash:
+      serializedVersion: 2
+      Hash: 2acb1f8299ab41381f6b1774c81407f2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: IntVarListener
+  - hash:
+      serializedVersion: 2
+      Hash: f8715fc7416d71ca9e89d7b95a6e08ee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: MaterialPropertyLerpSO
+  - hash:
+      serializedVersion: 2
+      Hash: de85b3ad3c97adaf93572c731610f880
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: ModifierBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: eed7429d3204a0b1b383f9d421825431
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: AnimationTag
+  - hash:
+      serializedVersion: 2
+      Hash: 7db4e82b2a88a6b119698e1eee4fd56c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.SA
+    className: MHeadBob
+  - hash:
+      serializedVersion: 2
+      Hash: f3ad1d6163255f783999c9ba25925592
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: BoolVar
+  - hash:
+      serializedVersion: 2
+      Hash: 459087024c60d5dced5deb7b6bc4e042
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: MAIState
+  - hash:
+      serializedVersion: 2
+      Hash: 530dc02023789753a4dd1580f4157518
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: SlowMotion
+  - hash:
+      serializedVersion: 2
+      Hash: 9b9bc7b807fa47a4152234b35e8420c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Events
+    className: MEvent
+  - hash:
+      serializedVersion: 2
+      Hash: d5ff93cf6753c29fc2fd45e25313e646
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: MFreeLookCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 73021259e28b4499f623d4b5af7d48f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: MInteract
+  - hash:
+      serializedVersion: 2
+      Hash: 3aec2a5d7ee00bd3cff0eb1422ee4d0e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: SimpleThrow
+  - hash:
+      serializedVersion: 2
+      Hash: 9222bfa8e1db871436c0f42f755b5c09
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: ReboneMesh
+  - hash:
+      serializedVersion: 2
+      Hash: ac67910c70d432c298d60db6c285da27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: MAnimalAIControl
+  - hash:
+      serializedVersion: 2
+      Hash: 61fd93e0b4397cbc5d2489d7a0b930ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: MaterialChanger
+  - hash:
+      serializedVersion: 2
+      Hash: 8553d33349b69571c1dafbbfa55d3f8f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: MInput
+  - hash:
+      serializedVersion: 2
+      Hash: 07749c6e37e7493ca0fc737b4b433040
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: Jump
+  - hash:
+      serializedVersion: 2
+      Hash: c0a87227436335aca8db8143bf759446
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: MExplosion
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: MStrafe
+  - hash:
+      serializedVersion: 2
+      Hash: 9dbb7c587424e38c7bdb36a7fb5f3352
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: SpriteVar
+  - hash:
+      serializedVersion: 2
+      Hash: 2f35ecc2912ec6831b87dbdeee9df2b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: Fall
+  - hash:
+      serializedVersion: 2
+      Hash: fc1d6b1046b8ff090f36241236e6db6a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: BoolVarListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1dcf21e5d8bc3512e619492d6e6fd3bd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: Dismember
+  - hash:
+      serializedVersion: 2
+      Hash: fffc63659dbe71d4ff05dd937f74a2de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: MDamageable
+  - hash:
+      serializedVersion: 2
+      Hash: c69d292c0f946b656a364dee64edb190
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.Reactions
+    className: SpeedReaction
+  - hash:
+      serializedVersion: 2
+      Hash: 768e0b2401d6f4fdefbb3f86c12c662e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: CommentB
+  - hash:
+      serializedVersion: 2
+      Hash: 488688c0a5e6dc2662a582b5c4416528
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: UseTransform
+  - hash:
+      serializedVersion: 2
+      Hash: f29d9722df0451975941f50d246f4d98
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: MTimelineManager
+  - hash:
+      serializedVersion: 2
+      Hash: 84828caedffa7a5cfa87f308f8ce980f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: GameObjectHook
+  - hash:
+      serializedVersion: 2
+      Hash: 733b6e31108e3adb49bfbd018760d0ab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: SetStanceTask
+  - hash:
+      serializedVersion: 2
+      Hash: da39f1620135f0f5d9b893105c5a6bde
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: IntVar
+  - hash:
+      serializedVersion: 2
+      Hash: 92bdae175f04e66b4a0ba14ae5688c42
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: GetRuntimeGameObjects
+  - hash:
+      serializedVersion: 2
+      Hash: daa2b32da4c5f2d67c5bad909a6d8ca8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: RuntimeGameObjects
+  - hash:
+      serializedVersion: 2
+      Hash: 3438cf1509ce72638387b84a3197ae85
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: Messages
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: PointClickData
+  - hash:
+      serializedVersion: 2
+      Hash: b29e6a207a363f805dae9e449c25c71f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: Pickable
+  - hash:
+      serializedVersion: 2
+      Hash: b8a7e802c580d76e013587e05879bacf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: SetTargetTask
+  - hash:
+      serializedVersion: 2
+      Hash: eed7429d3204a0b1b383f9d421825431
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: MAction
+  - hash:
+      serializedVersion: 2
+      Hash: ee892ee5315b5ac7dd32cbe549143d99
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: BlendShapePreset
+  - hash:
+      serializedVersion: 2
+      Hash: a699347b394acbfa61cee9de62072cac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: TriggerExit
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: UnityUtils
+  - hash:
+      serializedVersion: 2
+      Hash: 8cd5e24d55aab35d26e49247ac48e4fe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: FloatVar
+  - hash:
+      serializedVersion: 2
+      Hash: 96d941539d625ce63cd79b264211b9eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: MInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: c52a667643a2dfa6c2201a26fa9af03d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: GizmoVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: e1e37fae0a76e0a86ea08290e0dc1481
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: ValueToString
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: GravityChanger
+  - hash:
+      serializedVersion: 2
+      Hash: b0571f55fa6e28c61a8b20f3c0ca3278
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: StepsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4aff6adb4474ba6227d37dab53f51980
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: RigidConstraintsB
+  - hash:
+      serializedVersion: 2
+      Hash: 0ae41e3104a2fe145246098a8600f561
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: WaitDecision
+  - hash:
+      serializedVersion: 2
+      Hash: c0222e25cd3cd0ad461fb3cee748fa60
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: SetVarListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3f94b02c43637ba128891b0e16b0280e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: StringVar
+  - hash:
+      serializedVersion: 2
+      Hash: ad2e20cf232f10489eface0af688a232
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: MAttackAligner
+  - hash:
+      serializedVersion: 2
+      Hash: 5febe68ed7c5be615d84a5ad64c51185
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: MPickUp
+  - hash:
+      serializedVersion: 2
+      Hash: 586c5caf6e73dcc2a1036164dba10b2c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: BlendShape
+  - hash:
+      serializedVersion: 2
+      Hash: eed7429d3204a0b1b383f9d421825431
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: StatID
+  - hash:
+      serializedVersion: 2
+      Hash: d041aaee79ba239c9678951e78175c8c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: MessagesBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: 9a9e3c88d8dab79d275e5db3de6853a2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: CheckModeDecision
+  - hash:
+      serializedVersion: 2
+      Hash: c6a065879a0738e5e7f61756ad1ba289
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: FollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: c02fa07d668c492f0607aa2522b8996a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.Reactions
+    className: StanceReaction
+  - hash:
+      serializedVersion: 2
+      Hash: 00759bfdc263a1e7758c7874cc4c90cd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: WaitTask
+  - hash:
+      serializedVersion: 2
+      Hash: eed7429d3204a0b1b383f9d421825431
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: StanceID
+  - hash:
+      serializedVersion: 2
+      Hash: 4fa20d1e2c123be5129766b54f317773
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: MAttackTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 95ad58a61cd55e49c6f9f7604a8b82ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: Fly
+  - hash:
+      serializedVersion: 2
+      Hash: e49288205be0c655939e5e53995f3d0f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: SetLookAtTask
+  - hash:
+      serializedVersion: 2
+      Hash: 1325985116944130eb17ed946a74a5ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: IsKinematicB
+  - hash:
+      serializedVersion: 2
+      Hash: c4476f22103701447697ae066795ff93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.Reactions
+    className: StateReaction
+  - hash:
+      serializedVersion: 2
+      Hash: a91860a9116c73df14ec404e5ae1d4e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: GlobalGravity
+  - hash:
+      serializedVersion: 2
+      Hash: b533c7a3c1ff9a1e7412895675672efe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Events
+    className: UnityEventExit
+  - hash:
+      serializedVersion: 2
+      Hash: 3177ac5a4cc0770a1dceba45fb3cb37e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: PlayTransformAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 44f6e17ff490316e60e291e040659f18
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: Aligner
+  - hash:
+      serializedVersion: 2
+      Hash: 4566ef188b6909ca225ef3bace5796d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: ChanceTask
+  - hash:
+      serializedVersion: 2
+      Hash: a290e0dc7a89e37a3f4c83c3f86751d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Weapons
+    className: MProjectile
+  - hash:
+      serializedVersion: 2
+      Hash: f75228258069d6d17388b6ad9ee9b023
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: FireBreath
+  - hash:
+      serializedVersion: 2
+      Hash: aa3ffdb9ad01dc8bed3156d6e5d4465e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Scriptables
+    className: AddRuntimeGameObjects
+  - hash:
+      serializedVersion: 2
+      Hash: ad9d1fad8877ba335616682a74e63f4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: EffectManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8cf8db654a3b14c9c9b983bed2b793ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: MoveStopTask
+  - hash:
+      serializedVersion: 2
+      Hash: 659d6ceab26f9e4237abaaf29249f293
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: AnimatorMoveTimelineFixer
+  - hash:
+      serializedVersion: 2
+      Hash: 5baf40f7396f29a39a8f2f8f0cb579c4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: UpVectorTransform
+  - hash:
+      serializedVersion: 2
+      Hash: f6ef68af8fc07c63332f21ac15b624d2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: Aim
+  - hash:
+      serializedVersion: 2
+      Hash: dda1ead5bd82ff27b803e56a85e00c46
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.AI
+    className: ANDDecision
+  - hash:
+      serializedVersion: 2
+      Hash: b0a32220a963b8ce7dabe712584e31f4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: ComponentSelector
+  - hash:
+      serializedVersion: 2
+      Hash: f2906b3546b8deb3e4460913f27086a6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller
+    className: SwimUnderwater
+  - hash:
+      serializedVersion: 2
+      Hash: fee484fef52b24a68b035a4ffb874685
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations
+    className: MModeAlign
+  - hash:
+      serializedVersion: 2
+      Hash: e99a4e6069e8adabe221fbc82d25b35f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Utilities
+    className: MaterialLerpSO
+  - hash:
+      serializedVersion: 2
+      Hash: 8bb8db49c6545e96310d53463964c9e5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MalbersAnimations.Controller.Reactions
+    className: ModifyStatSO
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineTrack
+  - hash:
+      serializedVersion: 2
+      Hash: eeb356fa33eec10332ebc7e468fecb95
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineShot
+  - hash:
+      serializedVersion: 2
+      Hash: c8f1a224e0a43adc56c91864de822dd3
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineVirtualCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 2ce2187bbae6f802011f568630bd3d1f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineOrbitalTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: bd543bad7f9f6262f10595aadb130d22
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePipeline
+  - hash:
+      serializedVersion: 2
+      Hash: ae20da6493a48ec6a8af7899dcb31507
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFreeLook
+  - hash:
+      serializedVersion: 2
+      Hash: 6225eb0973ab0af667bc5f9d1b1b18de
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 62824bb9557c7e987502f2fbd2a26819
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBrain
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineHardLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 7c792393fb82488bd20139dcc5ba26d8
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 32fce7b97c39bff4b4f6c0f53f7e6bf1
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineCollisionImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: 694d20920c0e41f567e119f7159a3644
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePath
+  - hash:
+      serializedVersion: 2
+      Hash: 1e3d6222ff533d213aab144eb854a53b
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineTouchInputMapper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine.PostFX
+    className: CinemachineVolumeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 37de53a49708b087da4050fc1ca7a6ee
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePOV
+  - hash:
+      serializedVersion: 2
+      Hash: 6ff1c52123c50b3d73f35cd0e2e65dfd
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineSmoothPath
+  - hash:
+      serializedVersion: 2
+      Hash: b5eb08b578a2f2d80bb106cbe65ab501
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineStoryboard
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 66a76d307baa3e8eb65d877c961f1b43
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineRecomposer
+  - hash:
+      serializedVersion: 2
+      Hash: df21ffd1864551a3e43410f28754a73e
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineConfiner
+  - hash:
+      serializedVersion: 2
+      Hash: dbfb4270852b0008a423a7418d9de4cf
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineSameAsFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: ffd3ed4fcd23b3e7745287c99a637247
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: Cinemachine3rdPersonAim
+  - hash:
+      serializedVersion: 2
+      Hash: 23d669c8bf2983ca4a3df160658318a6
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineStateDrivenCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 15882a52798c275361cd0a3ada984ec5
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineDollyCart
+  - hash:
+      serializedVersion: 2
+      Hash: bd50beb95120324d8c4e8386692b6e82
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBlenderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 5e84370a36252d6aa37d6a7bd37710f7
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: Cinemachine3rdPersonFollow
+  - hash:
+      serializedVersion: 2
+      Hash: b5c3dbcb94925c8b595ad16a62b44788
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBasicMultiChannelPerlin
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: a66794b62dbf044668a5f102bb7908c2
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineIndependentImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6dd3dc11942e98c0a809c81f95fc960c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineExternalCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 2792936179724025482dc04d68a47ca7
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineClearShot
+  - hash:
+      serializedVersion: 2
+      Hash: dbfb4270852b0008a423a7418d9de4cf
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineHardLockToTarget
+  - hash:
+      serializedVersion: 2
+      Hash: e78709e690dc77916f3252ffe12b9d1f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTriggerAction
+  - hash:
+      serializedVersion: 2
+      Hash: af56f77a30c1a2da1680c736a6f5c6e8
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: GroupWeightManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: 204ea02909ea3f738dafe3ff633d2a93
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTrackedDolly
+  - hash:
+      serializedVersion: 2
+      Hash: 23066ceca838af0cf02e00e3cf5155c1
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: d227987243593b32ae57394d06018643
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFixedSignal
+  - hash:
+      serializedVersion: 2
+      Hash: 56df1fa7cea034df9863fe5a24200a32
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTargetGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b639d97cb780d0d99a2bfb3ad1935732
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineMixingCamera
+  - hash:
+      serializedVersion: 2
+      Hash: a66794b62dbf044668a5f102bb7908c2
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 611bc970ee9dc090779a3fac6a18fac6
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFramingTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: a2113831d3323f931007e1b3812dc814
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFollowZoom
+  - hash:
+      serializedVersion: 2
+      Hash: 8963690ef6f6b05ce03bfd8b5c26e20c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: NoiseSettings
+  - hash:
+      serializedVersion: 2
+      Hash: cbae2ed2d2d53cc8f539e7cb4f29bc1f
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineCameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 4a639215e29265dd99e4fed19e3fa9f4
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBlendListCamera
+  - hash:
+      serializedVersion: 2
+      Hash: e6d75f1a9bc0c6f7085df0baa077e688
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineGroupComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine.PostFX
+    className: CinemachinePostProcessing
+  platform: 20
+  scenePathNames:
+  - Assets/Malbers Animations/Animal Controller/1 - Demos/1 - PlayGround Human.unity
+  playerPath: '/Users/mac/Documents/GitHub/Meta/Web '
